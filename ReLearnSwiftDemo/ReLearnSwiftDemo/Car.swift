@@ -5,6 +5,8 @@
 //  Created by 杜红星 on 2021/7/19.
 //
 
+// Unit Test Class
+
 import Foundation
 
 enum CarType {

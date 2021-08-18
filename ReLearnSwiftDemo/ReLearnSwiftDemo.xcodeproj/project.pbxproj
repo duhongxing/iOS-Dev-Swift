@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E7846A126C61255004CEA18 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7846A026C61255004CEA18 /* Base.swift */; };
+		0E7846A326C61764004CEA18 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7846A226C61764004CEA18 /* Animal.swift */; };
+		0E7846A526C6176C004CEA18 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7846A426C6176C004CEA18 /* Dog.swift */; };
+		0E7846D626C61A95004CEA18 /* MainBundle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7846D026C6199F004CEA18 /* MainBundle.framework */; };
+		0E7846D726C61A95004CEA18 /* MainBundle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7846D026C6199F004CEA18 /* MainBundle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0E7846F326C645A0004CEA18 /* libStrackLogBundle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7846F226C6458F004CEA18 /* libStrackLogBundle.a */; };
 		0E8CE3E426BB908600D4B247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8CE3E326BB908600D4B247 /* AppDelegate.swift */; };
 		0E8CE3E626BB908600D4B247 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8CE3E526BB908600D4B247 /* SceneDelegate.swift */; };
 		0E8CE3E826BB908600D4B247 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8CE3E726BB908600D4B247 /* ViewController.swift */; };
@@ -20,6 +26,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0E7846CF26C6199F004CEA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E7846CA26C6199F004CEA18 /* MainBundle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0E7846B026C61960004CEA18;
+			remoteInfo = MainBundle;
+		};
+		0E7846D126C6199F004CEA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E7846CA26C6199F004CEA18 /* MainBundle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0E7846B926C61960004CEA18;
+			remoteInfo = MainBundleTests;
+		};
+		0E7846F126C6458F004CEA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E7846ED26C6458E004CEA18 /* StrackLogBundle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0E7846E326C6458E004CEA18;
+			remoteInfo = StrackLogBundle;
+		};
 		0E8CE3F726BB908A00D4B247 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0E8CE3D826BB908600D4B247 /* Project object */;
@@ -36,7 +63,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0E7846D826C61A95004CEA18 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0E7846D726C61A95004CEA18 /* MainBundle.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0E7846A026C61255004CEA18 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		0E7846A226C61764004CEA18 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		0E7846A426C6176C004CEA18 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		0E7846CA26C6199F004CEA18 /* MainBundle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MainBundle.xcodeproj; path = ../MainBundle/MainBundle.xcodeproj; sourceTree = "<group>"; };
+		0E7846ED26C6458E004CEA18 /* StrackLogBundle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StrackLogBundle.xcodeproj; path = ../StrackLogBundle/StrackLogBundle.xcodeproj; sourceTree = "<group>"; };
 		0E8CE3E026BB908600D4B247 /* ReLearnSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReLearnSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E8CE3E326BB908600D4B247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E8CE3E526BB908600D4B247 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +106,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E7846F326C645A0004CEA18 /* libStrackLogBundle.a in Frameworks */,
+				0E7846D626C61A95004CEA18 /* MainBundle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +128,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E7846CB26C6199F004CEA18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E7846D026C6199F004CEA18 /* MainBundle.framework */,
+				0E7846D226C6199F004CEA18 /* MainBundleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E7846D526C61A95004CEA18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E7846EE26C6458E004CEA18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E7846F226C6458F004CEA18 /* libStrackLogBundle.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		0E8CE3D726BB908600D4B247 = {
 			isa = PBXGroup;
 			children = (
+				0E7846ED26C6458E004CEA18 /* StrackLogBundle.xcodeproj */,
+				0E7846CA26C6199F004CEA18 /* MainBundle.xcodeproj */,
 				0E8CE3E226BB908600D4B247 /* ReLearnSwiftDemo */,
 				0E8CE3F926BB908A00D4B247 /* ReLearnSwiftDemoTests */,
 				0E8CE40426BB908A00D4B247 /* ReLearnSwiftDemoUITests */,
 				0E8CE3E126BB908600D4B247 /* Products */,
+				0E7846D526C61A95004CEA18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,7 +181,10 @@
 				0E8CE3E326BB908600D4B247 /* AppDelegate.swift */,
 				0E8CE3E526BB908600D4B247 /* SceneDelegate.swift */,
 				0E8CE3E726BB908600D4B247 /* ViewController.swift */,
+				0E7846A026C61255004CEA18 /* Base.swift */,
 				0E8CE41326BB91B500D4B247 /* Car.swift */,
+				0E7846A226C61764004CEA18 /* Animal.swift */,
+				0E7846A426C6176C004CEA18 /* Dog.swift */,
 				0E8CE3E926BB908600D4B247 /* Main.storyboard */,
 				0E8CE3EC26BB908A00D4B247 /* Assets.xcassets */,
 				0E8CE3EE26BB908A00D4B247 /* LaunchScreen.storyboard */,
@@ -144,6 +222,7 @@
 				0E8CE3DC26BB908600D4B247 /* Sources */,
 				0E8CE3DD26BB908600D4B247 /* Frameworks */,
 				0E8CE3DE26BB908600D4B247 /* Resources */,
+				0E7846D826C61A95004CEA18 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,6 +302,16 @@
 			mainGroup = 0E8CE3D726BB908600D4B247;
 			productRefGroup = 0E8CE3E126BB908600D4B247 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0E7846CB26C6199F004CEA18 /* Products */;
+					ProjectRef = 0E7846CA26C6199F004CEA18 /* MainBundle.xcodeproj */;
+				},
+				{
+					ProductGroup = 0E7846EE26C6458E004CEA18 /* Products */;
+					ProjectRef = 0E7846ED26C6458E004CEA18 /* StrackLogBundle.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0E8CE3DF26BB908600D4B247 /* ReLearnSwiftDemo */,
@@ -231,6 +320,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0E7846D026C6199F004CEA18 /* MainBundle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MainBundle.framework;
+			remoteRef = 0E7846CF26C6199F004CEA18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0E7846D226C6199F004CEA18 /* MainBundleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MainBundleTests.xctest;
+			remoteRef = 0E7846D126C6199F004CEA18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0E7846F226C6458F004CEA18 /* libStrackLogBundle.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStrackLogBundle.a;
+			remoteRef = 0E7846F126C6458F004CEA18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0E8CE3DE26BB908600D4B247 /* Resources */ = {
@@ -265,7 +378,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E8CE3E826BB908600D4B247 /* ViewController.swift in Sources */,
+				0E7846A326C61764004CEA18 /* Animal.swift in Sources */,
 				0E8CE3E426BB908600D4B247 /* AppDelegate.swift in Sources */,
+				0E7846A126C61255004CEA18 /* Base.swift in Sources */,
+				0E7846A526C6176C004CEA18 /* Dog.swift in Sources */,
 				0E8CE41426BB91B500D4B247 /* Car.swift in Sources */,
 				0E8CE3E626BB908600D4B247 /* SceneDelegate.swift in Sources */,
 			);
