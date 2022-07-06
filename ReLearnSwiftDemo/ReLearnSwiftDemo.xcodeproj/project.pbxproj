@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0E7846A126C61255004CEA18 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7846A026C61255004CEA18 /* Base.swift */; };
 		0E7846A326C61764004CEA18 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7846A226C61764004CEA18 /* Animal.swift */; };
-		0E7846A526C6176C004CEA18 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7846A426C6176C004CEA18 /* Dog.swift */; };
+		0E7846A526C6176C004CEA18 /* REDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7846A426C6176C004CEA18 /* REDog.swift */; };
 		0E7846D626C61A95004CEA18 /* MainBundle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7846D026C6199F004CEA18 /* MainBundle.framework */; };
 		0E7846D726C61A95004CEA18 /* MainBundle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7846D026C6199F004CEA18 /* MainBundle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0E7846F326C645A0004CEA18 /* libStrackLogBundle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7846F226C6458F004CEA18 /* libStrackLogBundle.a */; };
@@ -23,6 +23,13 @@
 		0E8CE40626BB908A00D4B247 /* ReLearnSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8CE40526BB908A00D4B247 /* ReLearnSwiftDemoUITests.swift */; };
 		0E8CE41426BB91B500D4B247 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8CE41326BB91B500D4B247 /* Car.swift */; };
 		0E8CE41626BB91E200D4B247 /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8CE41526BB91E200D4B247 /* CarTests.swift */; };
+		0E9C68DE286EE1B400D364C4 /* RELLDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C68DD286EE1B400D364C4 /* RELLDB.swift */; };
+		0E9C68E3286EE88100D364C4 /* RECodeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C68E2286EE88100D364C4 /* RECodeable.swift */; };
+		0E9C68E5286F260200D364C4 /* REDoCatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C68E4286F260200D364C4 /* REDoCatch.swift */; };
+		0EA446ED2859C62A0033B8F4 /* BlackjackCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA446E92859C62A0033B8F4 /* BlackjackCard.swift */; };
+		0EA446F5285B5F2B0033B8F4 /* RETime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA446F4285B5F2B0033B8F4 /* RETime.swift */; };
+		0ECCBC8F286302090027CB66 /* REArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECCBC8E286302090027CB66 /* REArray.swift */; };
+		0ECCBC942869A0FA0027CB66 /* RECustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECCBC932869A0F90027CB66 /* RECustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +87,7 @@
 /* Begin PBXFileReference section */
 		0E7846A026C61255004CEA18 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		0E7846A226C61764004CEA18 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
-		0E7846A426C6176C004CEA18 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		0E7846A426C6176C004CEA18 /* REDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REDog.swift; sourceTree = "<group>"; };
 		0E7846CA26C6199F004CEA18 /* MainBundle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MainBundle.xcodeproj; path = ../MainBundle/MainBundle.xcodeproj; sourceTree = "<group>"; };
 		0E7846ED26C6458E004CEA18 /* StrackLogBundle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StrackLogBundle.xcodeproj; path = ../StrackLogBundle/StrackLogBundle.xcodeproj; sourceTree = "<group>"; };
 		0E8CE3E026BB908600D4B247 /* ReLearnSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReLearnSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +106,16 @@
 		0E8CE40726BB908A00D4B247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E8CE41326BB91B500D4B247 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		0E8CE41526BB91E200D4B247 /* CarTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTests.swift; sourceTree = "<group>"; };
+		0E9C68DD286EE1B400D364C4 /* RELLDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RELLDB.swift; sourceTree = "<group>"; };
+		0E9C68E2286EE88100D364C4 /* RECodeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RECodeable.swift; sourceTree = "<group>"; };
+		0E9C68E4286F260200D364C4 /* REDoCatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REDoCatch.swift; sourceTree = "<group>"; };
+		0EA446E92859C62A0033B8F4 /* BlackjackCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackjackCard.swift; sourceTree = "<group>"; };
+		0EA446EE2859C66E0033B8F4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		0EA446EF2859C66F0033B8F4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		0EA446F12859C6840033B8F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0EA446F4285B5F2B0033B8F4 /* RETime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETime.swift; sourceTree = "<group>"; };
+		0ECCBC8E286302090027CB66 /* REArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REArray.swift; sourceTree = "<group>"; };
+		0ECCBC932869A0F90027CB66 /* RECustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RECustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,13 +195,20 @@
 		0E8CE3E226BB908600D4B247 /* ReLearnSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0EA446E92859C62A0033B8F4 /* BlackjackCard.swift */,
 				0E8CE3E326BB908600D4B247 /* AppDelegate.swift */,
 				0E8CE3E526BB908600D4B247 /* SceneDelegate.swift */,
 				0E8CE3E726BB908600D4B247 /* ViewController.swift */,
 				0E7846A026C61255004CEA18 /* Base.swift */,
 				0E8CE41326BB91B500D4B247 /* Car.swift */,
 				0E7846A226C61764004CEA18 /* Animal.swift */,
-				0E7846A426C6176C004CEA18 /* Dog.swift */,
+				0E7846A426C6176C004CEA18 /* REDog.swift */,
+				0EA446F4285B5F2B0033B8F4 /* RETime.swift */,
+				0ECCBC8E286302090027CB66 /* REArray.swift */,
+				0ECCBC932869A0F90027CB66 /* RECustomView.swift */,
+				0E9C68DD286EE1B400D364C4 /* RELLDB.swift */,
+				0E9C68E2286EE88100D364C4 /* RECodeable.swift */,
+				0E9C68E4286F260200D364C4 /* REDoCatch.swift */,
 				0E8CE3E926BB908600D4B247 /* Main.storyboard */,
 				0E8CE3EC26BB908A00D4B247 /* Assets.xcassets */,
 				0E8CE3EE26BB908A00D4B247 /* LaunchScreen.storyboard */,
@@ -298,6 +322,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 0E8CE3D726BB908600D4B247;
 			productRefGroup = 0E8CE3E126BB908600D4B247 /* Products */;
@@ -378,12 +403,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E8CE3E826BB908600D4B247 /* ViewController.swift in Sources */,
+				0ECCBC8F286302090027CB66 /* REArray.swift in Sources */,
 				0E7846A326C61764004CEA18 /* Animal.swift in Sources */,
+				0E9C68DE286EE1B400D364C4 /* RELLDB.swift in Sources */,
+				0E9C68E3286EE88100D364C4 /* RECodeable.swift in Sources */,
 				0E8CE3E426BB908600D4B247 /* AppDelegate.swift in Sources */,
 				0E7846A126C61255004CEA18 /* Base.swift in Sources */,
-				0E7846A526C6176C004CEA18 /* Dog.swift in Sources */,
+				0E7846A526C6176C004CEA18 /* REDog.swift in Sources */,
+				0ECCBC942869A0FA0027CB66 /* RECustomView.swift in Sources */,
 				0E8CE41426BB91B500D4B247 /* Car.swift in Sources */,
+				0EA446F5285B5F2B0033B8F4 /* RETime.swift in Sources */,
+				0EA446ED2859C62A0033B8F4 /* BlackjackCard.swift in Sources */,
 				0E8CE3E626BB908600D4B247 /* SceneDelegate.swift in Sources */,
+				0E9C68E5286F260200D364C4 /* REDoCatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +456,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0E8CE3EA26BB908600D4B247 /* Base */,
+				0EA446EE2859C66E0033B8F4 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -432,6 +465,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				0E8CE3EF26BB908A00D4B247 /* Base */,
+				0EA446EF2859C66F0033B8F4 /* zh-Hans */,
+				0EA446F12859C6840033B8F4 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -443,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -504,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

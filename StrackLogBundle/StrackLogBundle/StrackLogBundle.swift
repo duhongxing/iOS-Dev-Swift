@@ -7,7 +7,7 @@
 
 open class StrackLogBundle {
    public static func trackLog(_ message: String?)  {
-    guard let mesage = message else { return }
-    print("Track message \(message) \(#function)")
+    guard message != nil else { return }
+    print("Track message \(message ?? "") \(#function)")
    }
 }

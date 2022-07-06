@@ -7,6 +7,6 @@
 
 import Foundation
 
-class Dog: Animal {
+class REDog: Animal {
     var nick: String?
 }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Animal {
+class Animal: NSObject {
     var name: String?
     
     init(_ name: String) {
